@@ -87,7 +87,7 @@
     }
     span {
         background: inherit;
-        color: black;
+        color: red;
         font-family: "Lucida Grande";
         font-size: 15px;
     }
