@@ -1,0 +1,95 @@
+<svg version="1.1"
+     viewBox="0 0 350 18"
+     width="100%" height="100%"
+     xmlns="http://www.w3.org/2000/svg">
+
+
+  <style>
+    @keyframes words {
+        100% {content: "";}
+    }
+
+    @keyframes changeLetter {
+        0.00% {content: "";}
+        1.00% {content: "C";}
+        4.44% {content: "Cr";}
+        6.67% {content: "Cre";}
+        8.89% {content: "Crea";}
+        11.11% {content: "Creat";}
+        13.33% {content: "Creati";}
+        15.56% {content: "Creatin";}
+        17.78% {content: "Creating ";}
+        20.00% {content: "Creating a";}
+        22.22% {content: "Creating a ";}
+        24.44% {content: "Creating a n";}
+        26.67% {content: "Creating a ne";}
+        28.89% {content: "Creating a new";}
+        31.11% {content: "Creating a new ";}
+        33.33% {content: "Creating a new f";}
+        35.56% {content: "Creating a new fi";}
+        37.78% {content: "Creating a new fil";}
+        40.00% {content: "Creating a new file";}
+        42.22% {content: "Creating a new file.";}
+        44.44% {content: "Creating a new file";}
+        46.67% {content: "Creating a new fil";}
+        48.89% {content: "Creating a new fi";}
+        51.11% {content: "Creating a new f";}
+        53.33% {content: "Creating a new ";}
+        55.56% {content: "Creating a new";}
+        57.78% {content: "Creating a ne";}
+        60.00% {content: "Creating a n";}
+        62.22% {content: "Creating a ";}
+        64.44% {content: "Creating a";}
+        66.67% {content: "Creating ";}
+        68.89% {content: "Creating";}
+        71.11% {content: "Creatin";}
+        73.33% {content: "Creati";}
+        75.56% {content: "Creat";}
+        77.78% {content: "Crea";}
+        80.00% {content: "Cre";}
+        82.22% {content: "Cr";}
+        84.44% {content: "C";}
+        86.67% {content: "";}
+        88.89% {content: "(";}
+        91.11% {content: "(=";}
+        97.78% {content: "(";}
+        100% {content: "";}
+    }
+        
+    @keyframes cursor {
+        to { visibility: visible; }
+    }
+    @-webkit-keyframes cursor {
+        to { visibility: visible; }
+    }
+        
+    .words::before {
+        animation: words 1s linear 0s 1 normal forwards;
+        content: "";
+    }
+    .letter-changer::before {
+        animation: changeLetter 7s linear 1s infinite normal forwards;
+        content: "";
+    }
+    .letter-changer::after {
+        content: "​";
+        position: relative;
+        display: inline-block;
+        padding-right: 2px;
+        border-right: 2px solid currentColor;
+        white-space: nowrap;
+        animation: cursor 0.5s steps(5, start) infinite;
+    }
+    span {
+        background-color: white;
+        color: black;
+        font-family: "Lucida Grande";
+        font-size: 15px;
+    }
+</style>
+ 
+  <foreignObject xmlns="http://www.w3.org/2000/svg" x="0" y="0" width="100%" height="100%" viewBox="0 0 100 100" preserveAspectRatio="none">
+<span xmlns="http://www.w3.org/1999/xhtml" class="words"></span><span xmlns="http://www.w3.org/1999/xhtml" class="letter-changer"></span>
+  </foreignObject>
+  
+</svg>
