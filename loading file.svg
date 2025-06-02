@@ -3,6 +3,7 @@
      width="100%" height="100%"
      xmlns="http://www.w3.org/2000/svg">
 
+
   <style>
     @keyframes words {
         100% {content: "";}
@@ -51,7 +52,7 @@
         86.67% {content: "File not fou";}
         88.89% {content: "File not f";}
         91.11% {content: "File not ";}
-        93.33% {content: "File no";}       
+        93.33% {content: "File no";}      
         95.56% {content: "File n";}
         97.78% {content: "File ";}
         98.00% {content: "Fil";}
@@ -72,7 +73,7 @@
         content: "";
     }
     .letter-changer::before {
-        animation: changeLetter **14s** linear 1s infinite normal forwards;
+        animation: changeLetter 7s linear 1s infinite normal forwards;
         content: "";
     }
     .letter-changer::after {
@@ -91,7 +92,7 @@
         font-size: 15px;
     }
 </style>
-  
+ 
   <foreignObject xmlns="http://www.w3.org/2000/svg" x="0" y="0" width="100%" height="100%" viewBox="0 0 100 100" preserveAspectRatio="none">
 <span xmlns="http://www.w3.org/1999/xhtml" class="words"></span><span xmlns="http://www.w3.org/1999/xhtml" class="letter-changer"></span>
   </foreignObject>
