@@ -6,7 +6,7 @@
 
   <style>
     @keyframes words {
-        120% {content: "";}
+        130% {content: "";}
     }
 
     @keyframes changeLetter {
@@ -53,9 +53,9 @@
         88.89% {content: "(";}
         85.67% {content: "";}
         86.89% {content: "(";}
-        91.11% {content: "(=";}
-        113.00% {content: "(";}
-        120% {content: "";}
+        90.11% {content: "(=";}
+        125% {content: "(";}
+        130% {content: "";}
     }
         
     @keyframes cursor {
