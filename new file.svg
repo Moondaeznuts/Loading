@@ -49,10 +49,10 @@
         80.00% {content: "Cre";}
         82.22% {content: "Cr";}
         84.44% {content: "C";}
-        86.67% {content: "";}
-        88.89% {content: "(";}
+        85.67% {content: "";}
+        86.89% {content: "(";}
         91.11% {content: "(=";}
-        97.78% {content: "(";}
+        99.00% {content: "(";}
         100% {content: "";}
     }
         
