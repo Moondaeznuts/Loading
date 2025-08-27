@@ -1,0 +1,25 @@
+<svg width="100%" height="50px" viewBox="0 0 1000 50" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .scrolling-text {
+      font-family: Arial, sans-serif;
+      font-size: 24px;
+      fill: #000;
+
+      animation: marquee 15s linear infinite;
+    }
+    
+    @keyframes marquee {
+      0% {
+        transform: translateX(100%);
+      }
+      100% {
+        transform: translateX(-100%);
+      }
+    }
+  </style>
+  
+  <text x="0" y="30" class="scrolling-text">
+    For those who wish to arrive in Tamara, must offer sacrifices.
+  </text>
+
+</svg>
